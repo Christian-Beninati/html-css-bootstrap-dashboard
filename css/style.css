@@ -13,7 +13,7 @@
 } */
 
 /* utilities */
-.debug .bordeug {
+.debug .bordebug {
     border: 2px dashed black; 
 }
 
@@ -21,4 +21,10 @@
 header {
     height: 80px;
     background-color: blue;
+}
+
+/* down-content */
+.down-content {
+    height: calc(100vh - 80px);
+    background-color: aqua;
 }
