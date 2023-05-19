@@ -28,3 +28,24 @@ header {
     height: calc(100vh - 80px);
     background-color: aqua;
 }
+
+/* sidebar */
+.sidebar {
+    background-color: rebeccapurple;
+    flex: 0 0 50px; 
+}
+
+/* main */
+.main-content {
+    background-color: bisque;
+    flex: 1 1 auto;
+}
+
+ /************************************************
+ RESPONSIVE lg 992PX
+ ************************************************/
+ @media screen and (min-width: 992px) {
+    .sidebar {
+        flex: 0 0 110px;  
+    }
+}
