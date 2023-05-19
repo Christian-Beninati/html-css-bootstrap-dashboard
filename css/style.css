@@ -1,0 +1,19 @@
+ /************************************************
+ Breakpoints
+ ************************************************/ 
+ /* 
+    Small               sm    ≥576px
+    Medium              md    ≥768px
+    Large               lg    ≥992px
+*/
+
+/* custom properties */
+/* :root {
+    --bgd-header: # ;
+} */
+
+/* utilities */
+
+.debug .border {
+    border: 2px dashed black; 
+}
