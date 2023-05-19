@@ -13,7 +13,12 @@
 } */
 
 /* utilities */
-
-.debug .border {
+.debug .bordeug {
     border: 2px dashed black; 
+}
+
+/* header */
+header {
+    height: 80px;
+    background-color: blue;
 }
