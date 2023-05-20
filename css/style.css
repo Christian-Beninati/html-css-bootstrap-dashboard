@@ -26,13 +26,16 @@ header {
 /* down-content */
 .down-content {
     height: calc(100vh - 80px);
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 /* sidebar */
 .sidebar {
-    background-color: rebeccapurple;
+    background-image: url(/img/sidebar-bg.png);
+    background-color: rgb(18,40,63);
     flex: 0 0 50px; 
+    height: 100%;
+
 }
 
 /* main */
