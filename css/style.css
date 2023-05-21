@@ -8,19 +8,45 @@
 */
 
 /* custom properties */
-/* :root {
-    --bgd-header: # ;
-} */
+:root {
+    --bgd-head: #F8F9FA ;
+    --bgd-search-bar: #E5E5E5;
+    --col-bell: #F98F01;
+}
 
 /* utilities */
 .debug .bordebug {
     border: 2px dashed black; 
 }
 
+a {
+    text-decoration: none;
+    color: #5B5858;
+}
+
 /* header */
 header {
     height: 80px;
-    background-color: blue;
+}
+
+.head {
+    height: 100%;
+}
+
+.nav-l {
+    height: 50%;
+}
+
+.bg-w {
+    background-color: white;
+}
+
+.bg-serch-b{
+    background-color: var(--bgd-search-bar);
+}
+
+.bell {
+    color: var(--col-bell);
 }
 
 /* down-content */
