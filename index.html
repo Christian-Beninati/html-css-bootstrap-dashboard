@@ -16,7 +16,7 @@
     <!-- title -->
     <title>Boolean</title>
 </head>
-<body class="debu"> 
+<body class="debug"> 
 
     <!-- header -->
     <header class=" bg-light " >
@@ -32,7 +32,7 @@
                <div class="col bg-white  ">
                    <form>
                        <div class="input-group ms-2" >
-                           <span class="input-group-text bg-serch-b" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                           <span class="input-group-text bg-serch-b border-0" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
                            <input class="form-control mr-sm-2 bg-serch-b serch-b border-0 px-0" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                        </div>
                    </form>
@@ -89,17 +89,17 @@
         <main class="main-content overflow-auto bg-light">
 
             <!-- main content up -->
-            <section id="main-content-up container-fluid ">
-                <div class=" bg-primary text-white d-md-flex justify-content-between p-4  " >
+            <section id="main-content-up"> 
+                <div class=" container-fluid bg-primary text-white d-md-flex justify-content-between p-4 " >
 
                     <!-- student new -->
-                    <div class="order-md-1  pb-3   bordebug">
+                    <div class="student new order-md-1  pb-3 ">
                         <a class="text-white pe-3" href="#">Nuovo Studente</a> 
                         <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-plus"></i></button>
                     </div>
 
                     <!-- boolean -->
-                    <div class=" pb-3 bordebug">
+                    <div class=" boolean pb-3">
                         <a class="text-white h2 pe-2" href="#">Boolean</a>
                         <a href="#"><span class="badge rounded-pill bl-pill">Piano blaze</span></a>
                         <nav>
@@ -113,10 +113,247 @@
                     </div>
                     
                     <!-- student online -->
-                    <div class=" bordebug ">
+                    <div class="student-online">
                         <a class="text-white" href="#">Studenti online negli ultimi 30 minuti</a>
                         <div>
                             <a class="text-white h2" href="#"> 125 </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- content down -->
+            <section class="content-down">
+                <div class="container">
+                    <div class="row pt-3">
+                        <!-- NEXT CLASSES -->
+                        <div class="col-12">
+                            <div class="card">
+                                <h5 class="card-header">Prossime classi</h5>
+                                <div class="card-body">
+                                    <table class="table">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col"> Nome</th>
+                                            <th scope="col" class="d-none d-md-table-cell">Data inizio</th>
+                                            <th scope="col" class="d-none d-md-table-cell">Roi</th>
+                                            <th scope="col" class="ps-4">Stato </th>
+                                            <th scope="col">Azioni</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- classe 75 -->
+                                          <tr>
+                                            <th scope="row">
+                                                <img src="img/class-avatar.jpg" alt="logo" width="25" height="25" class="bg-cus img-fluid">
+                                                <span class="h6 ps-2"> Classe 75 </span>
+                                            </th>
+                                            <td class="d-none d-md-table-cell">
+                                                15 Feb 2021
+                                            </td>
+                                            <td class="d-none d-md-table-cell">
+                                                20%
+                                            </td>
+                                            <td class="ps-4">
+                                                <span class="badge rounded-pill text-bg-success ">Done</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+
+                                            <!-- classe 76 -->
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">
+                                                <img src="img/class-avatar.jpg" alt="logo" width="25" height="25" class="bg-cus img-fluid">
+                                                <span class="h6 ps-2"> Classe 76 </span>
+                                            </th>
+                                            <td class="d-none d-md-table-cell">
+                                                16 Feb 2021
+                                            </td>
+                                            <td class="d-none d-md-table-cell">
+                                                20%
+                                            </td>
+                                            <td class="ps-4">
+                                                <span class="badge rounded-pill text-bg-success">Done</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                          </tr>
+
+                                          <!-- classe 77 -->
+                                          <tr>
+                                            <th scope="row">
+                                                <img src="img/class-avatar.jpg" alt="logo" width="25" height="25" class="bg-cus img-fluid">
+                                                <span class="h6 ps-2"> Classe 77 </span>
+                                            </th>
+                                            <td class="d-none d-md-table-cell">
+                                                17 Feb 2021
+                                            </td>
+                                            <td class="d-none d-md-table-cell">
+                                                20%
+                                            </td>
+                                            <td class="ps-3">
+                                                <span class="badge rounded-pill bg-warning">process</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                          </tr>
+
+                                          <!-- classe 78 -->
+                                          <tr>
+                                            <th scope="row">
+                                                <img src="img/class-avatar.jpg" alt="logo" width="25" height="25" class="bg-cus img-fluid">
+                                                <span class="h6 ps-2"> Classe 78 </span>
+                                            </th>
+                                            <td class="d-none d-md-table-cell">
+                                                18 Feb 2021
+                                            </td>
+                                            <td class="d-none d-md-table-cell">
+                                                20%
+                                            </td>
+                                            <td class="ps-4">
+                                                <span class="badge rounded-pill text-bg-success">Done</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                          </tr>
+
+                                           <!-- classe 79 -->
+                                           <tr>
+                                            <th scope="row">
+                                                <img src="img/class-avatar.jpg" alt="logo" width="25" height="25" class="bg-cus img-fluid">
+                                                <span class="h6 ps-2"> Classe 79 </span>
+                                            </th>
+                                            <td class="d-none d-md-table-cell">
+                                                19 Feb 2021
+                                            </td>
+                                            <td class="d-none d-md-table-cell">
+                                                20%
+                                            </td>
+                                            <td class="ps-4">
+                                                <span class="badge rounded-pill bg-danger">falled</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                          </tr>
+
+                                           <!-- classe 80 -->
+                                           <tr>
+                                            <th scope="row">
+                                                <img src="img/class-avatar.jpg" alt="logo" width="25" height="25" class="bg-cus img-fluid">
+                                                <span class="h6 ps-2"> Classe 80 </span>
+                                            </th>
+                                            <td class="d-none d-md-table-cell">
+                                                20 Feb 2021
+                                            </td>
+                                            <td class="d-none d-md-table-cell">
+                                                20%
+                                            </td>
+                                            <td class="ps-4">
+                                                <span class="badge rounded-pill text-bg-success">Done</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                          </tr>
+
+                                           <!-- classe 81 -->
+                                           <tr>
+                                            <th scope="row">
+                                                <img src="img/class-avatar.jpg" alt="logo" width="25" height="25" class="bg-cus img-fluid">
+                                                <span class="h6 ps-2"> Classe 81 </span>
+                                            </th>
+                                            <td class="d-none d-md-table-cell">
+                                                21 Feb 2021
+                                            </td>
+                                            <td class="d-none d-md-table-cell">
+                                                20%
+                                            </td>
+                                            <td class="ps-4">
+                                                <span class="badge rounded-pill bg-danger">falled</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                          </tr>
+
+                                           <!-- classe 82 -->
+                                           <tr>
+                                            <th scope="row">
+                                                <img src="img/class-avatar.jpg" alt="logo" width="25" height="25" class="bg-cus img-fluid">
+                                                <span class="h6 ps-2"> Classe 82 </span>
+                                            </th>
+                                            <td class="d-none d-md-table-cell">
+                                                22 Feb 2021
+                                            </td>
+                                            <td class="d-none d-md-table-cell">
+                                                20%
+                                            </td>
+                                            <td class="ps-4">
+                                                <span class="badge rounded-pill text-bg-success">Done</span>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-pen"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-outline-secondary btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col">
+                            
+                        </div>
+                        <div class="col">
+                            
+                        </div>
+                        <div class="col">
+                            
                         </div>
                     </div>
                 </div>

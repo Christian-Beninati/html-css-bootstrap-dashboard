@@ -67,9 +67,16 @@ header {
     flex: 1 1 auto;
 }
 
+/* content up */
 .bl-pill {
     background-color: #1B5BBA;
 }
+
+/* content down */
+.bg-cus {
+    background: none;
+}
+
 
  /************************************************
  RESPONSIVE lg 992PX
