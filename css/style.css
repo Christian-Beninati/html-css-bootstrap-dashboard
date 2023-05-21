@@ -61,13 +61,15 @@ header {
     background-color: rgb(18,40,63);
     flex: 0 0 50px; 
     height: 100%;
-
 }
 
 /* main */
 .main-content {
-    background-color: bisque;
     flex: 1 1 auto;
+}
+
+.bl-pill {
+    background-color: #1B5BBA;
 }
 
  /************************************************
