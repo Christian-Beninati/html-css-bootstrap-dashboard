@@ -62,6 +62,10 @@ header {
     height: 100%;
 }
 
+li:hover a, .admin:hover a {
+    background-color: gray;
+}
+
 /* main */
 .main-content {
     flex: 1 1 auto;
