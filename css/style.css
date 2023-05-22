@@ -56,8 +56,8 @@ header {
 
 /* sidebar */
 .sidebar {
-    background-image: url(/img/sidebar-bg.png);
     background-color: rgb(18,40,63);
+    background-image: url(/img/sidebar-bg.png);
     flex: 0 0 50px; 
     height: 100%;
 }
@@ -77,6 +77,10 @@ header {
     background: none;
 }
 
+.fon-s {
+    font-size: 14px;
+    font-weight: 500;
+}
 
  /************************************************
  RESPONSIVE lg 992PX
