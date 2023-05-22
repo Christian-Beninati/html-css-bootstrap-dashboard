@@ -105,7 +105,20 @@
                      <!-- student new -->
                      <div class="col-12 col-sm-4 col-lg-3 order-sm-1 pb-3 ">
                         <a class="text-white pe-3" href="#">Nuovo Studente</a> 
-                        <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-plus"></i></button>
+                        <!-- button + offcanvas -->
+                        <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" class="btn btn-outline-light">
+                           <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <div class=" offcanvas offcanvas-end text-black" tabindex="-1" id="offcanvasRight"  aria-labelledby="offcanvasRightLabel">
+                           <!-- offcanvas header -->
+                           <div class="offcanvas-header">
+                             <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                           </div>
+                           <!-- offcanvas body -->
+                           <div class="offcanvas-body" >                           
+                           </div>
+                         </div>
                      </div>
                      
                      <!-- boolean -->
