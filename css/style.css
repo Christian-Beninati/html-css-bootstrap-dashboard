@@ -86,11 +86,22 @@ li:hover a, .admin:hover a {
     font-weight: 500;
 }
 
+/* offcanvas */
+#offcanvasRight {
+    width: 100%;
+}
+
  /************************************************
  RESPONSIVE lg 992PX
  ************************************************/
  @media screen and (min-width: 992px) {
     .sidebar {
         flex: 0 0 110px;  
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #offcanvasRight {
+        width: 800px;
     }
 }
