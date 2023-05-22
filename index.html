@@ -17,36 +17,35 @@
     <title>Boolean</title>
 </head>
 <body class="debug"> 
-
-    <!-- header -->
-    <header class=" bg-light " >
-        <!-- navbar -->
-        <nav class=" navbaar container-fluid head">
-           <div class="row head align-items-center">
-               <!-- logo -->
-               <div class="col-1 col-lg-2 bg-white  ">
-                  <img  class=" d-lg-none " src="img/mobile-logo.png" alt="logo" width="45" height="45" >
-                  <img class="ms-2 d-none d-lg-block" src="img/logo.svg" alt="logo" width="130" height="45">
-               </div>
-               <!-- search bar -->
-               <div class="col bg-white  ">
-                   <form>
-                       <div class="input-group ms-2" >
-                           <span class="input-group-text bg-serch-b border-0" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                           <input class="form-control mr-sm-2 bg-serch-b serch-b border-0 px-0" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
-                       </div>
-                   </form>
-               </div>
-               <!-- icons -->
-               <nav class="col-1 col-lg-2 bg-white d-flex justify-content-end align-items-center  nav-l ">
-                  <a href="#"> <i class="fa-solid fa-list-ul d-none d-lg-block pe-4"></i></a>
-                  <a href="#"> <i class="fa-solid fa-circle-question d-none d-lg-block pe-4"></i></a>
-                  <a href="#"><i class="fa-solid fa-ellipsis-vertical d-none d-lg-block pe-4"></i></a>
-                  <a href="#"> <i class="fa-solid fa-bell bell "></i></a>
-               </nav>
+   <!-- header -->
+   <header class=" bg-light " >
+     <!-- navbar -->
+     <nav class=" navbaar container-fluid head">
+        <div class="row head align-items-center">
+            <!-- logo -->
+           <div class="col-1 col-lg-2 bg-white  ">
+              <img  class=" d-lg-none " src="img/mobile-logo.png" alt="logo" width="45" height="45" >
+              <img class="ms-2 d-none d-lg-block" src="img/logo.svg" alt="logo" width="130" height="45">
            </div>
-        </nav>
-    </header>
+           <!-- search bar -->
+           <div class="col bg-white  ">
+               <form>
+                   <div class="input-group ms-2" >
+                       <span class="input-group-text bg-serch-b border-0" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                       <input class="form-control mr-sm-2 bg-serch-b serch-b border-0 px-0" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                   </div>
+               </form>
+           </div>
+           <!-- icons -->
+           <nav class="col-1 col-lg-2 bg-white d-flex justify-content-end align-items-center  nav-l ">
+              <a href="#"> <i class="fa-solid fa-list-ul d-none d-lg-block pe-4"></i></a>
+              <a href="#"> <i class="fa-solid fa-circle-question d-none d-lg-block pe-4"></i></a>
+              <a href="#"><i class="fa-solid fa-ellipsis-vertical d-none d-lg-block pe-4"></i></a>
+              <a href="#"> <i class="fa-solid fa-bell bell "></i></a>
+           </nav>
+        </div>
+     </nav>
+   </header>
     
     <!-- down-content -->
     <div class="down-content d-flex overflow-auto">
@@ -127,8 +126,8 @@
                 <div class="container">
                     <div class="row pt-3">
                         <!-- NEXT CLASSES -->
-                        <div class="col-12">
-                            <div class="card">
+                        <div class="col-12 col-lg-7">
+                            <div class="card mb-3">
                                 <h5 class="card-header">Prossime classi</h5>
                                 <div class="card-body">
                                     <table class="table">
@@ -345,52 +344,50 @@
                                     </table>
                                 </div>
                             </div>
-                        </div>
-
-                        <!-- frequently asked questions F.A.Q -->
-                        <div class="col-12 pt-3">
-                            <div class="card">
-                                <h5 class="card-header"> F.A.Q.</h5>
-                                <div class="card-body">
-                                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                                        <div class="accordion-item">
-                                          <h2 class="accordion-header" id="flush-headingOne">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                              Come aggiungere un nuovo studente?
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Clicca sul + in alto nella sezione blu.</div>
-                                          </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                          <h2 class="accordion-header" id="flush-headingTwo">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                              Come posso accedere alle informazioni del mio account?
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Clicca sull'icona della campanella.</div>
-                                          </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                          <h2 class="accordion-header" id="flush-headingThree">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                              Posso usare questa dashboard da mobile?
-                                            </button>
-                                          </h2>
-                                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Si, puoi usare la dashboard anche da mobile.</div>
-                                          </div>
-                                        </div>
-                                      </div>
+                            
+                            <!-- frequently asked questions F.A.Q -->
+                            <div class="card mb-3">
+                              <h5 class="card-header"> F.A.Q.</h5>
+                              <div class="card-body">
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Come aggiungere un nuovo studente?
+                                      </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                      <div class="accordion-body">Clicca sul + in alto nella sezione blu.</div>
+                                    </div>
+                                  </div>
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Come posso accedere alle informazioni del mio account?
+                                      </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                      <div class="accordion-body">Clicca sull'icona della campanella.</div>
+                                    </div>
+                                  </div>
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Posso usare questa dashboard da mobile?
+                                      </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                      <div class="accordion-body">Si, puoi usare la dashboard anche da mobile.</div>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
-                        </div>
+                            </div>
+                          </div>
 
                         <!-- tod0 -->
-                        <div class="col-12 pt-3">
-                            <div class="card">
+                        <div class="col-12 col-lg-5 ">
+                            <div class="card mb-3">
                                 <h5 class="card-header">Todo</h5>
                                 <div class="card-body">
                                     <ul class="list-group">
@@ -409,26 +406,24 @@
                                     </ul>
                                 </div>    
                             </div>
-                        </div>
-
-                        <!-- active users  -->
-                        <div class="col-12 p-3">
-                            <div class="card">
-                                <img src="img/stats.jpeg" alt="">
-                                <div class="card-body">
-                                  <h5 class="card-title">Utenti attivi</h5>
-                                  <p class="card-text">Lista degli utenti sttivi in piattaforma nell'ulttimo mese</p>
-                                </div>
-                                <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">Gennaio: 1200</li>
-                                  <li class="list-group-item">Febbraio: 800</li>
-                                  <li class="list-group-item">Marzo: 1500</li>
-                                </ul>
-                                <div class="card-body">
-                                  <a href="#" class="card-link text-decoration-underline text-primary">Visualizza report approfondito</a>
-                                </div>
+                            
+                            <!-- active users  -->
+                            <div class="card mb-3">
+                              <img src="img/stats.jpeg" alt="">
+                              <div class="card-body">
+                                <h5 class="card-title">Utenti attivi</h5>
+                                <p class="card-text">Lista degli utenti sttivi in piattaforma nell'ulttimo mese</p>
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Gennaio: 1200</li>
+                                <li class="list-group-item">Febbraio: 800</li>
+                                <li class="list-group-item">Marzo: 1500</li>
+                              </ul>
+                              <div class="card-body">
+                                <a href="#" class="card-link text-decoration-underline text-primary">Visualizza report approfondito</a>
+                              </div>
                             </div>
-                        </div>
+                          </div>
                     </div>
                 </div>
             </section>
