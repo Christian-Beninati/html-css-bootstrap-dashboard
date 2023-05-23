@@ -117,10 +117,10 @@
                            </div>
                            <!-- offcanvas body -->
                            <div class="offcanvas-body">
-                              <form class="row g-3">
+                              <form class="row g-3" action="https://marcolanci.it/lezioni/read_form.php" method="post">
                                  <!-- name -->
                                  <div class="field col-12 col-md-6 ">
-                                    <label for="imputusername">Nome</label>
+                                    <label for="imputname">Nome</label>
                                     <input type="text" name="name" class="form-control" id="imputname"  >
                                   </div>
                                  <!-- username -->
@@ -154,9 +154,11 @@
                                  <!-- state -->
                                  <div class="field col-12 col-md-3">
                                     <label for="inputState" class="form-label">Stato</label>
-                                    <select id="inputState" class="form-select">
+                                    <select id="inputState" class="form-select" name="inputState">
                                       <option selected>Scegli...</option>
-                                      <option>Italia</option>
+                                      <option value="ita">Italia</option>
+                                      <option value="fra">Francia</option>
+                                      <option value="spa">Spagna</option>
                                     </select>
                                  </div>
                                  <!-- zip-code -->
@@ -170,9 +172,9 @@
                                     <input type="file" name="file" class="form-control" id="inputpicture">
                                   </div>
                                  <!-- checkbox -->
-                                 <div class="col-12">
+                                 <div class="field col-12">
                                    <div class="form-check">
-                                     <input class="form-check-input" type="checkbox" value="accepted" id="gridCheck">
+                                     <input class="form-check-input" type="checkbox" value="accepted" name="checkbox" id="gridCheck">
                                      <label class="form-check-label" for="gridCheck">
                                        Seleziona per proseguire
                                      </label>
